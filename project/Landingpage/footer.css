@@ -1,0 +1,24 @@
+  /* FOOTER SECTION */
+    section, hr{
+        width: 90%;
+    }
+    #section_1{
+        flex-direction: column;
+        
+    }
+    #section_1 #left{
+        width: 100%;
+        gap: 1rem;
+    }
+    #section_1 #right{
+        width: 100%;
+        margin-top: 4rem;
+        display: flex;
+        gap: 5rem;
+    }
+    #section_1 #right *{
+        margin: unset;
+    }
+    #section_5, #section_6{
+        display: none;
+    }
